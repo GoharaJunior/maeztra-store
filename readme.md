@@ -4,7 +4,7 @@
     <br>
 </h1>
 <p align="center"> Visualize o projeto:
-    COMING SOON
+    https://goharajunior.github.io/maeztra-store/
 </p>
 
 <img src=".github/demo.gif" alt="Demonstração do Projeto" height="280">&nbsp;&nbsp;
