@@ -7,7 +7,7 @@
     https://goharajunior.github.io/maeztra-store/
 </p>
 
-<img src=".github/demo.gif" alt="Demonstração do Projeto" height="280">&nbsp;&nbsp;
+<img src=".github/demo.gif" alt="Demonstração do Projeto" height="350">&nbsp;&nbsp;
 <img src=".github/demo-mobile.gif" alt="Demonstração do Projeto" height="350">
 <br>
 <br>
