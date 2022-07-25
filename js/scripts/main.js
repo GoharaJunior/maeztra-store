@@ -19,6 +19,7 @@ var swiper = new Swiper(".full-banner", {
 var swiper = new Swiper(".rulers", {
     slidesPerView: 1,
     spaceBetween: 16,
+    loop: true,
     breakpoints: {
         600: {
             slidesPerView: 2,
@@ -44,6 +45,7 @@ var swiper = new Swiper(".rulers", {
 var swiper = new Swiper(".partner-brands", {
     slidesPerView: 1,
     spaceBetween: 16,
+    loop: true,
     breakpoints: {
         600: {
             slidesPerView: 2,

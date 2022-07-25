@@ -129,7 +129,6 @@
     }
 
     /* Responsive */
-    
     @include responsive(480px) {
         padding: 4rem 1.5rem 4rem;
         background-color: #fff;
@@ -137,7 +136,7 @@
         &-item {
             justify-content: center;
             &:not(:last-child) {
-                max-width: 328px;
+                max-width: 378px;
             }
             &:last-child {
                 min-width: calc(100% + 70px);
@@ -147,6 +146,18 @@
             white-space: nowrap;
         }
     }
+
+    @include responsive(376px) {
+        &-item {
+            &:not(:last-child) {
+                max-width: 335px;
+            }
+        }
+    }
+
+
+
+    
 }
 
 /*=== partner brands ===*/
