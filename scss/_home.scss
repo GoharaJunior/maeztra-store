@@ -106,7 +106,6 @@
         background-color: #EFEFEF;
         padding: 1.4rem 2.7rem;
         border-radius: 4px;
-        cursor: pointer;
     }
 
     .icon {
@@ -138,31 +137,17 @@
             &:not(:last-child) {
                 max-width: 378px;
             }
-            &:last-child {
-                min-width: calc(100% + 70px);
-            }
         }
         span {
             white-space: nowrap;
         }
     }
-
-    @include responsive(376px) {
-        &-item {
-            &:not(:last-child) {
-                max-width: 335px;
-            }
-        }
-    }
-
-
-
-    
 }
 
 /*=== partner brands ===*/
 .partner-brands {
         padding-bottom: 8rem;
+
         &-bg {
             background-color: #FAFAFA;
         }
@@ -175,6 +160,12 @@
             margin-bottom: 1.7rem;
         }
 
+        .brands-item {
+            img {
+                margin: 0 auto;
+            }
+        }
+
         .swiper-wrapper {
             align-items: center;
         }
@@ -184,6 +175,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 0 20px;
         }
     }
 
@@ -303,18 +295,6 @@
         .varFour {
             background: #3C3B79;
         }
-
-        // .varSelected {
-        //     border: 2px solid red;
-        // }
-
-    }
-
-    @include responsive(480px) {
-        background-color: #fff;
-        &.container {
-            padding: 0 40px 0 15px
-        }
     }
 }
 
@@ -357,7 +337,6 @@
         }
     }
     
-
     @include responsive(800px) {
         padding: 4rem 0;
 
@@ -469,6 +448,26 @@
         }
     }
 
+    @include responsive(1020px) {
+        .container {
+            .search {
+                input {
+                    max-width: 56rem;
+                }
+            }
+        }
+    }
+
+    @include responsive(903px) {
+        .container {
+            .search {
+                input {
+                    max-width: 45rem;
+                }
+            }
+        }
+    }
+
     @include responsive(800px) {
         .container {
             flex-direction: column;
@@ -488,7 +487,7 @@
                     }
                 }
                 input {
-                    max-width: 45rem;
+                    max-width: 40rem;
                 }
             }
         }
